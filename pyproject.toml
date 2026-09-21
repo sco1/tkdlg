@@ -1,6 +1,6 @@
 [project]
 name = "tkdlg"
-version = "0.1.0"
+version = "1.0.0"
 description = "Prebuilt prompt dialogs for tkinter"
 license = "MIT"
 license-files = ["LICENSE"]
@@ -43,6 +43,7 @@ dev = [
     "pre-commit~=4.0",
     "pytest~=9.0",
     "pytest-cov~=7.0",
+    "pytest-mock~=3.15",
     "pytest-randomly~=5.0",
     "ruff~=0.16",
     "sco1-bumper~=2.0",
